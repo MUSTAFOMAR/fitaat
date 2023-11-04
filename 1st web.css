@@ -5,11 +5,8 @@ background-color: rgba(0, 0, 255, 0.541);
  padding-top: 100px;
  display: flex;
 }
-@media screen and(max-width:750px)    {
-header{
-    background-image: none;
-}
-}
+
+
         .sidenav{
     height: 100%;
     width: 0%;
@@ -51,7 +48,7 @@ header{
       color: white;
     }
   
-    @media screen and(max-height:450px){
+    @media screen and(max-height:550px){
         .sidenav{
             padding-top: 15px;
         }
@@ -62,6 +59,10 @@ header{
             display: flex;
             flex-direction: column;
             margin-left: 50%;
+        }
+        header{
+        max-width: 550px;
+        height: 30vh;
         }
         }
       .title h2{
